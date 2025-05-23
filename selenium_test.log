@@ -1,2 +1,54 @@
-2025-05-22 14:41:22,361 - INFO - Login Successful
-2025-05-22 14:41:24,953 - INFO - Browser Closed
+2025-05-23 12:37:34,240 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-23 12:37:34,269 - INFO - Clearing the Username Field
+2025-05-23 12:37:34,321 - INFO - Sending Keys tomsmith to Username Field
+2025-05-23 12:37:34,327 - INFO - Clearing the Password Field
+2025-05-23 12:37:34,334 - INFO - Sending Keys SuperSecretPassword! to Password Field
+2025-05-23 12:37:34,512 - INFO - Clicked Login button...
+2025-05-23 12:37:36,512 - INFO - Expected Result: Login Successful
+2025-05-23 12:37:36,516 - INFO - Login was Successful
+2025-05-23 12:37:36,531 - INFO - Screenshot saved as: login-success-valid_credentials.png
+2025-05-23 12:37:36,535 - INFO - Flash message: You logged into a secure area!
+×
+2025-05-23 12:37:36,535 - INFO - Test Result: SUCCESS
+2025-05-23 12:37:36,602 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-23 12:37:36,606 - INFO - Clearing the Username Field
+2025-05-23 12:37:36,615 - INFO - Sending Keys Tomsmith to Username Field
+2025-05-23 12:37:36,618 - INFO - Clearing the Password Field
+2025-05-23 12:37:36,623 - INFO - Sending Keys SuperSecretPassword! to Password Field
+2025-05-23 12:37:36,719 - INFO - Clicked Login button...
+2025-05-23 12:37:38,719 - INFO - Expected Result: Login Unsuccessful due to username
+2025-05-23 12:37:38,723 - ERROR - Login was Unsuccessful
+2025-05-23 12:37:38,737 - INFO - Screenshot saved as: login-failed-invalid_username.png
+2025-05-23 12:37:38,741 - INFO - Flash message: Your username is invalid!
+×
+2025-05-23 12:37:38,741 - INFO - Test Result: FAILED
+2025-05-23 12:37:38,804 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-23 12:37:38,808 - INFO - Clearing the Username Field
+2025-05-23 12:37:38,814 - INFO - Sending Keys tomsmith to Username Field
+2025-05-23 12:37:38,817 - INFO - Clearing the Password Field
+2025-05-23 12:37:38,821 - INFO - Sending Keys SuperSecretPassword to Password Field
+2025-05-23 12:37:38,928 - INFO - Clicked Login button...
+2025-05-23 12:37:40,929 - INFO - Expected Result: Login Unsuccessful due to password
+2025-05-23 12:37:40,933 - ERROR - Login was Unsuccessful
+2025-05-23 12:37:40,947 - INFO - Screenshot saved as: login-failed-invalid_password.png
+2025-05-23 12:37:40,951 - INFO - Flash message: Your password is invalid!
+×
+2025-05-23 12:37:40,951 - INFO - Test Result: FAILED
+2025-05-23 12:37:41,009 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-23 12:37:41,011 - INFO - Clearing the Username Field
+2025-05-23 12:37:41,014 - INFO - Sending Keys  to Username Field
+2025-05-23 12:37:41,017 - INFO - Clearing the Password Field
+2025-05-23 12:37:41,019 - INFO - Sending Keys  to Password Field
+2025-05-23 12:37:41,116 - INFO - Clicked Login button...
+2025-05-23 12:37:43,117 - INFO - Expected Result: Login Unsuccessful due to empty fields
+2025-05-23 12:37:43,122 - ERROR - Login was Unsuccessful
+2025-05-23 12:37:43,136 - INFO - Screenshot saved as: login-failed-empty_inputs.png
+2025-05-23 12:37:43,140 - INFO - Flash message: Your username is invalid!
+×
+2025-05-23 12:37:43,140 - INFO - Test Result: FAILED
+2025-05-23 12:37:43,140 - INFO - === TEST SUMMARY ===
+2025-05-23 12:37:43,140 - INFO - valid_login: SUCCESS
+2025-05-23 12:37:43,140 - INFO - invalid_username: FAILED
+2025-05-23 12:37:43,140 - INFO - invalid_password: FAILED
+2025-05-23 12:37:43,140 - INFO - empty_inputs: FAILED
+2025-05-23 12:37:45,683 - INFO - Browser closed
