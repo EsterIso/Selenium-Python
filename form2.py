@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import logging
+import subprocess
+import os
 
 logging.basicConfig(
     level=logging.INFO,
@@ -102,6 +104,11 @@ class LoginTest:
         return result
 
     def check_success(self, test_type):
+        version = self.get_latest_git_tag()
+
+        screenshot_folder = os.path.join('screenshots', version)
+        os.makedirs(screenshot_folder, exist_ok=True)
+
         try:
             # Wait for flash message to appear
             flash_element = self.wait.until(
@@ -119,8 +126,10 @@ class LoginTest:
                 result = "FAILED"
                 
             # Take screenshot with descriptive name
-            self.driver.save_screenshot(screenshot_name)
-            logger.info(f'Screenshot saved as: {screenshot_name}')
+            # Full path to save screenshot
+            screenshot_path = os.path.join(screenshot_folder, screenshot_name)
+            self.driver.save_screenshot(screenshot_path)
+            logger.info(f'Screenshot saved as: {screenshot_path}')
             
             # Log the flash message content
             flash_text = flash_element.text
@@ -161,6 +170,12 @@ class LoginTest:
         if self.driver:
             self.driver.quit()
             logger.info('Browser closed')
+    @staticmethod
+    def get_latest_git_tag():
+        try:
+            return subprocess.check_output(['git', 'describe', '--tags', '--abbrev=0']).decode('utf-8').strip()
+        except Exception:
+            return "v0.0.0"
 
 if __name__ == "__main__":
     test_runner = LoginTest()
