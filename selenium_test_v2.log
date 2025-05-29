@@ -1,0 +1,79 @@
+2025-05-29 12:36:15,891 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:15,946 - INFO - Clearing the Username Field
+2025-05-29 12:36:15,974 - INFO - Sending Keys tomsmith to Username Field
+2025-05-29 12:36:15,976 - INFO - Clearing the Password Field
+2025-05-29 12:36:15,982 - INFO - Sending Keys SuperSecretPassword! to Password Field
+2025-05-29 12:36:16,100 - INFO - Clicked Login button...
+2025-05-29 12:36:18,130 - INFO - Login was Successful
+2025-05-29 12:36:18,144 - INFO - Screenshot saved as: screenshots\v1.0.0\login-success-1.png
+2025-05-29 12:36:18,148 - INFO - Flash message: You logged into a secure area!
+×
+2025-05-29 12:36:18,207 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:18,211 - INFO - Clearing the Username Field
+2025-05-29 12:36:18,219 - INFO - Sending Keys Tomsmith to Username Field
+2025-05-29 12:36:18,222 - INFO - Clearing the Password Field
+2025-05-29 12:36:18,227 - INFO - Sending Keys SuperSecretPassword! to Password Field
+2025-05-29 12:36:18,325 - INFO - Clicked Login button...
+2025-05-29 12:36:20,351 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:20,365 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-2.png
+2025-05-29 12:36:20,368 - INFO - Flash message: Your username is invalid!
+×
+2025-05-29 12:36:20,422 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:20,425 - INFO - Clearing the Username Field
+2025-05-29 12:36:20,432 - INFO - Sending Keys tomsmith to Username Field
+2025-05-29 12:36:20,434 - INFO - Clearing the Password Field
+2025-05-29 12:36:20,439 - INFO - Sending Keys SuperSecretPassword to Password Field
+2025-05-29 12:36:20,538 - INFO - Clicked Login button...
+2025-05-29 12:36:22,563 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:22,577 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-3.png
+2025-05-29 12:36:22,581 - INFO - Flash message: Your password is invalid!
+×
+2025-05-29 12:36:22,635 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:22,638 - INFO - Clearing the Username Field
+2025-05-29 12:36:22,643 - INFO - Sending Keys   to Username Field
+2025-05-29 12:36:22,646 - INFO - Clearing the Password Field
+2025-05-29 12:36:22,650 - INFO - Sending Keys   to Password Field
+2025-05-29 12:36:22,752 - INFO - Clicked Login button...
+2025-05-29 12:36:24,779 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:24,793 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-4.png
+2025-05-29 12:36:24,797 - INFO - Flash message: Your username is invalid!
+×
+2025-05-29 12:36:24,853 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:24,857 - INFO - Clearing the Username Field
+2025-05-29 12:36:24,864 - INFO - Sending Keys tomsmith to Username Field
+2025-05-29 12:36:24,867 - INFO - Clearing the Password Field
+2025-05-29 12:36:24,871 - INFO - Sending Keys supersecretpassword! to Password Field
+2025-05-29 12:36:24,971 - INFO - Clicked Login button...
+2025-05-29 12:36:26,997 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:27,011 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-5.png
+2025-05-29 12:36:27,014 - INFO - Flash message: Your password is invalid!
+×
+2025-05-29 12:36:27,069 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:27,072 - INFO - Clearing the Username Field
+2025-05-29 12:36:27,076 - INFO - Sending Keys smithtom to Username Field
+2025-05-29 12:36:27,079 - INFO - Clearing the Password Field
+2025-05-29 12:36:27,083 - INFO - Sending Keys sUPERsECRETpASSWORD to Password Field
+2025-05-29 12:36:27,186 - INFO - Clicked Login button...
+2025-05-29 12:36:29,213 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:29,227 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-6.png
+2025-05-29 12:36:29,231 - INFO - Flash message: Your username is invalid!
+×
+2025-05-29 12:36:29,285 - INFO - Going to Webpage https://the-internet.herokuapp.com/login
+2025-05-29 12:36:29,289 - INFO - Clearing the Username Field
+2025-05-29 12:36:29,296 - INFO - Sending Keys test231 to Username Field
+2025-05-29 12:36:29,298 - INFO - Clearing the Password Field
+2025-05-29 12:36:29,302 - INFO - Sending Keys pass2432 to Password Field
+2025-05-29 12:36:29,402 - INFO - Clicked Login button...
+2025-05-29 12:36:31,428 - ERROR - Login was Unsuccessful
+2025-05-29 12:36:31,442 - INFO - Screenshot saved as: screenshots\v1.0.0\login-failed-7.png
+2025-05-29 12:36:31,445 - INFO - Flash message: Your username is invalid!
+×
+2025-05-29 12:36:31,445 - INFO - === TEST SUMMARY ===
+2025-05-29 12:36:31,445 - INFO - 1: SUCCESS
+2025-05-29 12:36:31,445 - INFO - 2: FAILED
+2025-05-29 12:36:31,445 - INFO - 3: FAILED
+2025-05-29 12:36:31,445 - INFO - 4: FAILED
+2025-05-29 12:36:31,445 - INFO - 5: FAILED
+2025-05-29 12:36:31,445 - INFO - 6: FAILED
+2025-05-29 12:36:31,445 - INFO - 7: FAILED
+2025-05-29 12:36:33,880 - INFO - Browser closed
